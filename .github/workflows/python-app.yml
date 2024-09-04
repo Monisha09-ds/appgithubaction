@@ -22,9 +22,7 @@ jobs:
     #Step 2 : Set up the python environment 
     - name: Set up Python 3.9
       uses  : actions/setup-python@v2
-      with:
-        python-version:'3.9'
-
+      
     #Step 3: Install Dependencies 
     - name: Install dependencies
       run:
